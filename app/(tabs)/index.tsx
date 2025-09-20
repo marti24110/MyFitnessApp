@@ -36,3 +36,6 @@ export default function HomeScreen() {
     </View>
   )
 }
+// 1. useState to hold the joke and loading state
+// 2. useEffect to fetch the joke when the component mounts
+// 3. Conditional rendering to show a loading indicator or the joke
